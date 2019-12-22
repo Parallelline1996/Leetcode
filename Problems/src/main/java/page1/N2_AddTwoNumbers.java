@@ -87,9 +87,6 @@ public class N2_AddTwoNumbers {
 
     /**
      * 比较差的做法，因为没有使用哨兵，多了一步判断
-     * @param l1
-     * @param l2
-     * @return
      */
     private static ListNode addTwoNumbers1(ListNode l1, ListNode l2) {
         ListNode output = null;
