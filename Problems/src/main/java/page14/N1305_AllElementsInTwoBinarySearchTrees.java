@@ -4,7 +4,7 @@
  * @Date: 2019/12/29 15:56
  */
 
-package page53;
+package page14;
 
 import tools.TreeNode;
 
@@ -24,7 +24,7 @@ import java.util.List;
  * Each node's value is between [-10^5, 10^5].
  *
  */
-public class N5296_AllElementsInTwoBinarySearchTrees {
+public class N1305_AllElementsInTwoBinarySearchTrees {
 
     public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
         List<Integer> list1 = new ArrayList<>();
