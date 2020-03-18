@@ -37,9 +37,9 @@ public class N169_MajorityElement {
             if (times == 0) {
                 temp = num;
             }
-            if (temp == num)
+            if (temp == num) {
                 times++;
-            else {
+            } else {
                 times--;
             }
         }
