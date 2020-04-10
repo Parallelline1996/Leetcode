@@ -110,6 +110,9 @@ public class N101_SymmetricTree {
         return isSymmetric(root, root);
     }
 
+    /**
+     * N100_SameTree
+     */
     private boolean isSymmetric(TreeNode root1, TreeNode root2) {
         if (root1 == null && root2 == null) {
             return true;
