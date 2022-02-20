@@ -149,5 +149,6 @@ Top Hits: Top 100 Linked Questions (⭐)
 |1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|Medium|Sort, Tree|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page14/N1305_AllElementsInTwoBinarySearchTrees.java)|[(☆▽☆)](https://blog.csdn.net/Applying/article/details/103754707)|
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|Medium|Breadth-first search, Graph|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page14/N1306_JumpGameIII.java)|[(☆▽☆)](https://blog.csdn.net/Applying/article/details/104026257)|
 |1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|Medium|String|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page14/N1358_NumberOfSubstringsContainingAllThreeCharacters.java)|[(☆▽☆)](https://blog.csdn.net/Applying/article/details/104455948)|
+|2176|[Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)|Easy||[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page22/N2176_CountEqualAndDivisiblePairsInAnArray.java)||
 
 
