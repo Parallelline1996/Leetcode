@@ -35,14 +35,14 @@ public class N21_MergeTwoSortedLists {
         b1.next = b2;
         b2.next = b3;
 
-        ListNode c = new N21_MergeTwoSortedLists().mergeTwoLists1(a, b);
+        ListNode c = new N21_MergeTwoSortedLists().mergeTwoLists(a, b);
         while (c != null) {
             System.out.print(c.val + " ");
             c = c.next;
         }
     }
 
-    private ListNode mergeTwoLists1(ListNode l1, ListNode l2) {
+    private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;
         }

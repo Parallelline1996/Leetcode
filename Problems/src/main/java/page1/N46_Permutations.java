@@ -45,17 +45,24 @@ public class N46_Permutations {
         return output;
     }
 
+    /**
+     * 回溯算法
+     */
     public void permute(int[] nums, int number, boolean[] use, List<Integer> list, List<List<Integer>> output) {
+        // 满足结束条件
         if (number == 0) {
+            // 在result中添加路径
             output.add(new ArrayList<>(list));
             return;
         }
 
         for (int i = 0; i < nums.length; i++) {
             if (!use[i]) {
+                // 做选择，并将选择结果从选择列表移除，添加到路径
                 list.add(nums[i]);
                 use[i] = true;
                 permute(nums, number - 1, use, list, output);
+                // 撤销选择，从路径中移除选择，并将选择放回到选择列表
                 use[i] = false;
                 list.remove((Integer)nums[i]);
             }
@@ -70,11 +77,11 @@ public class N46_Permutations {
             return null;
         }
         List<List<Integer>> list = new ArrayList<>();
-        permute(nums, 0, list);
+        permute1(nums, 0, list);
         return list;
     }
 
-    private static void permute(int[] nums, int start, List<List<Integer>> output) {
+    private static void permute1(int[] nums, int start, List<List<Integer>> output) {
         if (start == nums.length - 1) {
             List<Integer> temp = new ArrayList<>(nums.length);
             for (int a : nums
@@ -88,7 +95,7 @@ public class N46_Permutations {
                 // 进行交换
                 swap(nums, start, i);
                 // 将开始交换的位向后推动一位 start = start + 1
-                permute(nums, start + 1, output);
+                permute1(nums, start + 1, output);
                 // 交换回来，为了下一次交换
                 swap(nums, start, i);
             }

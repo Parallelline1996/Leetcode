@@ -52,7 +52,9 @@ public class N51_N_Queens {
      * @param total total row
      */
     private void solveNQueens(List<List<String>> result, boolean[][] map, int n, int total) {
+        // 满足结束条件
         if (n > total) {
+            // 在结果中添加路径
             buildMap(result, map);
             return;
         }
@@ -60,8 +62,10 @@ public class N51_N_Queens {
         for (int i = 1; i <= total; i++) {
             // turn to index
             if (placeQueen(map, n - 1, i - 1)) {
+                // 从选择列表中做选择
                 map[n - 1][i - 1] = true;
                 solveNQueens(result, map, n + 1, total);
+                // 撤销选择
                 map[n - 1][i - 1] = false;
             }
         }

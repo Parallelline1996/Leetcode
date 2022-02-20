@@ -43,23 +43,27 @@ public class N206_ReverseLinkedList {
     /**
      * Iterative, 迭代：一个程序或函数循环迭代多次
      */
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverseList1(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
         ListNode pre = null;
-        ListNode cur = head;
+        ListNode cur = null;
         ListNode next = head;
         while (next != null) {
-            next = cur.next;
+            cur = next;
+            next = next.next;
             cur.next = pre;
             pre = cur;
-            cur = next;
         }
-        return pre;
+        return cur;
     }
 
     /**
      * Recursive, 递归：重复多次调用程序或函数本身
      */
-    public ListNode reverseList1(ListNode head) {
+    public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
