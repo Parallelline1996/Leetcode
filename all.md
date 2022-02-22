@@ -150,5 +150,5 @@ Top Hits: Top 100 Linked Questions (⭐)
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|Medium|Breadth-first search, Graph|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page14/N1306_JumpGameIII.java)|[(☆▽☆)](https://blog.csdn.net/Applying/article/details/104026257)|
 |1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|Medium|String|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page14/N1358_NumberOfSubstringsContainingAllThreeCharacters.java)|[(☆▽☆)](https://blog.csdn.net/Applying/article/details/104455948)|
 |2176|[Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)|Easy||[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page22/N2176_CountEqualAndDivisiblePairsInAnArray.java)||
-
+|2180|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|Easy||[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page22/N2180_CountIntegersWithEvenDigitSum.java)||
 

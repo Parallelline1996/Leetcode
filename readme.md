@@ -1,4 +1,5 @@
 # LeetCode题目与解答
+[\~ \~ \~ 解 题 汇 总 \~ \~ \~](https://github.com/Parallelline1996/Leetcode/blob/master/all.md)
 
 ## 分类
 
