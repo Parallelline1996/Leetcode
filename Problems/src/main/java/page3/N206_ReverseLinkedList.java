@@ -22,24 +22,6 @@ import tools.ListNode;
  */
 public class N206_ReverseLinkedList {
 
-    public static void main(String[] args) {
-        ListNode a0 = new ListNode(1);
-        ListNode a1 = new ListNode(2);
-        ListNode a2 = new ListNode(3);
-        ListNode a3 = new ListNode(4);
-        ListNode a4 = new ListNode(5);
-        a0.next = a1;
-        a1.next = a2;
-        a2.next = a3;
-        a3.next = a4;
-
-        ListNode a = new N206_ReverseLinkedList().reverseList(a0);
-        while (a != null) {
-            System.out.print(a.val + "  ");
-            a = a.next;
-        }
-    }
-
     /**
      * Iterative, 迭代：一个程序或函数循环迭代多次
      */
@@ -52,9 +34,13 @@ public class N206_ReverseLinkedList {
         ListNode cur = null;
         ListNode next = head;
         while (next != null) {
+            // cur指针指向要处理节点
             cur = next;
+            // next指针移动到下一个要处理的节点
             next = next.next;
+            // cur节点的方向指向之前的节点，完成反转
             cur.next = pre;
+            // pre指向现在的节点，对于下一个节点的处理，pre为当前节点
             pre = cur;
         }
         return cur;

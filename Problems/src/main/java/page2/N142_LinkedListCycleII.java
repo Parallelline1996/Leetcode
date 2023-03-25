@@ -59,6 +59,9 @@ public class N142_LinkedListCycleII {
         }
     }
 
+    /**
+     * todo 整理数学关系
+     */
     public ListNode detectCycle(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
