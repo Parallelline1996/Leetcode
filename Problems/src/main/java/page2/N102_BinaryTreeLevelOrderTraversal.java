@@ -15,22 +15,23 @@ import java.util.Queue;
 
 /**
  * https://leetcode.com/problems/binary-tree-level-order-traversal/
- *
- * Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
- *
+ * <p>
+ * Given a binary tree, return the level order traversal of its nodes' values.
+ * (ie, from left to right, level by level).
+ * <p>
  * For example:
  * Given binary tree [3,9,20,null,null,15,7],
- *     3
- *    / \
- *   9  20
- *     /  \
- *    15   7
- *
+ * 3
+ * / \
+ * 9  20
+ * /  \
+ * 15   7
+ * <p>
  * return its level order traversal as:
  * [
- *   [3],
- *   [9,20],
- *   [15,7]
+ * [3],
+ * [9,20],
+ * [15,7]
  * ]
  */
 public class N102_BinaryTreeLevelOrderTraversal {
@@ -44,7 +45,7 @@ public class N102_BinaryTreeLevelOrderTraversal {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
 
-        while(!queue.isEmpty()) {
+        while (!queue.isEmpty()) {
             int n = queue.size();
             List<Integer> list = new ArrayList<>();
             for (int i = 0; i < n; i++) {

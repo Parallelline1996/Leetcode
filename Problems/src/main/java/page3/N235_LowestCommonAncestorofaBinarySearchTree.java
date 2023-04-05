@@ -38,6 +38,9 @@ public class N235_LowestCommonAncestorofaBinarySearchTree {
         return helper(root, p, q);
     }
 
+    /**
+     * BST树的性质：公共祖先一定大于 min node并小于 max node
+     */
     private TreeNode helper(TreeNode root, TreeNode p, TreeNode q) {
         if (root.val > p.val && root.val > q.val) {
             return helper(root.left, p, q);

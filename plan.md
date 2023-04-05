@@ -19,3 +19,14 @@
 |409|[最长回文串(Longest Palindrome)](https://leetcode.com/problems/longest-palindrome)|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page5/N409_LongestPalindrome.java)|
 |704|[二分查询(Binary Search)](https://leetcode.com/problems/binary-search)|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page8/N704_BinarySearch.java)|
 |278|[第一个错误的版本(First Bad Version)](https://leetcode.com/problems/first-bad-version)|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page3/N278_FirstBadVersion.java)|
+
+# week3
+
+|#|题目|解答|
+|:--:|:--:|:--:|
+|589|[N 叉树的前序遍历(N-ary Tree Preorder Traversal)](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page6/N589_N_aryTreePreorderTraversal.java)|
+|102|[二叉树的层序遍历(Binary Tree Level Order Traversal)](https://leetcode.com/problems/binary-tree-level-order-traversal)|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page2/N102_BinaryTreeLevelOrderTraversal.java)|
+|98|[验证二叉搜索树(Validate Binary Search Tree)](https://leetcode.com/problems/validate-binary-search-tree/)|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page1/N98_ValidateBinarySearchTree.java)|
+|235|[二叉搜索树的最近公共祖先(Lowest Common Ancestor of a Binary Search Tree)](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page3/N235_LowestCommonAncestorofaBinarySearchTree.java)|
+|733|[图像渲染(Flood Fill)](https://leetcode.com/problems/flood-fill/)|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page8/N733_FloodFill.java)|
+|200|[岛屿数量(Number of Islands)](https://leetcode.com/problems/number-of-islands/)|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page2/N200_NumberOfIslands.java)|
