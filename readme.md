@@ -10,6 +10,8 @@
 |序号|题目|难度|解答|博客|
 |:--:|:--:|:--:|:--:|:--:|
 |1|[两数之和](https://leetcode.com/problems/two-sum/)|简单|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page1/N1_TwoSum.java)||
+|88|[合并排序数组](https://leetcode.com/problems/merge-sorted-array)|简单|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page1/N88_MergeSortedArray.java)||
+|169|[多数元素](https://leetcode.com/problems/majority-element)|简单|[Java](https://github.com/Parallelline1996/Leetcode/blob/master/Problems/src/main/java/page2/N169_MajorityElement.java)||
 
 
 ### 链表

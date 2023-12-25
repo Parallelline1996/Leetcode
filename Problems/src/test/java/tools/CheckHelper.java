@@ -20,6 +20,28 @@ public class CheckHelper {
         return node1 == null && node2 == null;
     }
 
+    public static boolean checkObjectArrayEquals(int[] objects1, int[] objects2) {
+        if (objects1 == null && objects2 == null) {
+            return true;
+        }
+
+        if (objects1 == null || objects2 == null) {
+            return false;
+        }
+
+        if (objects1.length != objects2.length) {
+            return false;
+        }
+
+        for (int i = 0; i < objects1.length; i++) {
+            if (objects1[i] != objects2[i]) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     public static boolean checkObjectArrayEquals(Object[] objects1, Object[] objects2) {
         if (objects1 == null && objects2 == null) {
             return true;
